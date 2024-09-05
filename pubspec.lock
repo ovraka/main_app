@@ -224,7 +224,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: d7528908a1bd84f22bb4d98085a1b1266530c44b
+      resolved-ref: c60c73a7a4d70f98905be3201cee2fee30f97454
       url: "https://github.com/ovraka/movie_module.git"
     source: git
     version: "1.0.0+1"
@@ -257,7 +257,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: ee5493896b61d39dd53bca69c9bfab0db37266bf
+      resolved-ref: "71198f331ea98c7e6340e933ec0516e2c839c867"
       url: "https://github.com/ovraka/shared_module.git"
     source: git
     version: "1.0.0+1"
