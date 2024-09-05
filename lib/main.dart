@@ -1,12 +1,17 @@
+import 'package:movie_module/movie.dart';
 import 'package:shared_module/shared.dart';
 
 void main() async {
   await dotenv.load(fileName: '.env');
-  runApp(const MyApp());
+  final movieService = MovieService();
+  runApp(MyApp(
+    movieService: movieService,
+  ));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  final MovieService movieService;
+  const MyApp({super.key, required this.movieService});
 
   // This widget is the root of your application.
   @override
@@ -33,7 +38,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: BlocProvider(
+        create: (context) =>
+            MovieBloc(movieService)..add(const MovieEvent.started()),
+        child: const DiscoverMovieScreen(),
+      ),
     );
   }
 }

@@ -139,6 +139,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: c2e2d632dd9b8a2b7751117abcfc2b4888ecfe181bd9fca7170d9ef02e595fe2
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.4"
   http_parser:
     dependency: transitive
     description:
@@ -147,6 +155,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.9.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -208,7 +224,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "58d4de179a797addf97512b43bbd1525dee00ffb"
+      resolved-ref: ca246d6121cc790429b646b718e7103f02eb2404
       url: "https://github.com/ovraka/movie_module.git"
     source: git
     version: "1.0.0+1"
@@ -241,7 +257,7 @@ packages:
     description:
       path: "."
       ref: HEAD
-      resolved-ref: "07a03baafba73d19bc273b2a4689e336b7ba2bc9"
+      resolved-ref: ee5493896b61d39dd53bca69c9bfab0db37266bf
       url: "https://github.com/ovraka/shared_module.git"
     source: git
     version: "1.0.0+1"
