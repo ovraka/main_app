@@ -1,0 +1,6 @@
+[submodule "shared_module"]
+	path = shared_module
+	url = https://github.com/ovraka/shared_module.git
+[submodule "movie_module"]
+	path = movie_module
+	url = https://github.com/ovraka/movie_module.git
